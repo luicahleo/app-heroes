@@ -34,6 +34,11 @@ export class DbzService {
       name: 'Krillin',
       power: 50000,
     },
+    {
+      id: uuidv4(),
+      name: 'Trunks',
+      power: 15000,
+    },
   ];
 
   addCharacter(character: Character): void {
